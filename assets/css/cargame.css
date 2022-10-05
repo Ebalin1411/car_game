@@ -1,0 +1,26 @@
+body{
+   margin: 0;  
+   background-color: black; 
+}
+.cargame{
+    display: flex;
+    flex-direction: column;
+}
+.gameInstruction{
+    margin-top: 0;
+    color: aliceblue;
+}
+
+.car{       
+    position: relative;/*make sure car container div is relative */
+    left:0px;
+    margin-top: 250px;
+    width:100vw;
+ }
+#greenCar{
+    position: absolute;
+    left: 0;
+    width:350px;
+    height:350px;    
+    
+}
